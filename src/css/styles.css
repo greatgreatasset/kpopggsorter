@@ -12,6 +12,14 @@ a:hover {
   color: #B36F75;
 }
 
+ul {
+  list-style-type: disc;
+}
+
+h2 {
+  font-size: 200%;
+}
+
 .title {
   color: #ffffff;
   font-size: 1.8rem;
