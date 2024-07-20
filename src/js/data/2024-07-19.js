@@ -302,7 +302,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-  name: "Nana (Woo!Ah!)",
+  name: "Nana (WOOAH)",
   img: "LKllJ6c.png",
   opts: {
     group: [ "wooah" ],
@@ -310,7 +310,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-  name: "Wooyeon (Woo!Ah!)",
+  name: "Wooyeon (WOOAH)",
   img: "dSWcMBK.png",
   opts: {
     group: [ "wooah" ],
@@ -318,7 +318,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-  name: "Sora (Woo!Ah!)",
+  name: "Sora (WOOAH)",
   img: "DWSZ7UC.png",
   opts: {
     group: [ "wooah" ],
@@ -326,7 +326,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },  
   {
-  name: "Lucy (Woo!Ah!)",
+  name: "Lucy (WOOAH)",
   img: "9jRtEM6.png",
   opts: {
     group: [ "wooah" ],
@@ -334,7 +334,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-  name: "Minseo (Woo!Ah!)",
+  name: "Minseo (WOOAH)",
   img: "HzFqPs0.png",
   opts: {
     group: [ "wooah" ],
@@ -1519,7 +1519,7 @@ dataSet[dataSetVersion].characterData = [
     },
 	{
     name: "Nayoung (Lightsum)",
-    img: "",
+    img: "7VKRZOi.png",
     opts: {
       group: [ "Lightsum" ],
       gen: ["gen4"]  
