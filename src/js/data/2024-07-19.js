@@ -2014,42 +2014,42 @@ dataSet[dataSetVersion].characterData = [
       }
     },
 	{
-    name: "Woni (Rescene)",
+    name: "Woni (RESCENE)",
     img: "7VKRZOi.png",
     opts: {
-      group: [ "Rescene" ],
+      group: [ "RESCENE" ],
       gen: ["gen5"]  
       }
     },
 	{
-    name: "Minami (Rescene)",
+    name: "Minami (RESCENE)",
     img: "7VKRZOi.png",
     opts: {
-      group: [ "Rescene" ],
+      group: [ "RESCENE" ],
       gen: ["gen5"]  
       }
     },
 	{
-    name: "Liv (Rescene)",
+    name: "Liv (RESCENE)",
     img: "7VKRZOi.png",
     opts: {
-      group: [ "Rescene" ],
+      group: [ "RESCENE" ],
       gen: ["gen5"]  
       }
     },
 	{
-    name: "May (Rescene)",
+    name: "May (RESCENE)",
     img: "7VKRZOi.png",
     opts: {
-      group: [ "Rescene" ],
+      group: [ "RESCENE" ],
       gen: ["gen5"]  
       }
     },
 	{
-    name: "Zena (Rescene)",
+    name: "Zena (RESCENE)",
     img: "7VKRZOi.png",
     opts: {
-      group: [ "Rescene" ],
+      group: [ "RESCENE" ],
       gen: ["gen5"]  
       }
     },
