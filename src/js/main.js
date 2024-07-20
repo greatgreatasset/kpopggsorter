@@ -715,17 +715,20 @@ function setLatestDataset() {
 /** Populate option list. */
 function populateOptions() {
   const optList = document.querySelector('.options');
+  
+  // Function to insert options (same as before)
   const optInsert = (name, id, tooltip, checked = true, disabled = false) => {
     return `<div><label title="${tooltip?tooltip:name}"><input id="cb-${id}" type="checkbox" ${checked?'checked':''} ${disabled?'disabled':''}> ${name}</label></div>`;
   };
+  
   const optInsertLarge = (name, id, tooltip, checked = true) => {
     return `<div class="large option"><label title="${tooltip?tooltip:name}"><input id="cbgroup-${id}" type="checkbox" ${checked?'checked':''}> ${name}</label></div>`;
   };
 
-  /** Clear out any previous options. */
+  // Clear out any previous options.
   optList.innerHTML = '';
 
-  /** Insert sorter options and set grouped option behavior. */
+  // Insert options and set grouped option behavior.
   options.forEach(opt => {
     if ('sub' in opt) {
       optList.insertAdjacentHTML('beforeend', optInsertLarge(opt.name, opt.key, opt.tooltip, opt.checked));
@@ -744,6 +747,23 @@ function populateOptions() {
     } else {
       optList.insertAdjacentHTML('beforeend', optInsert(opt.name, opt.key, opt.tooltip, opt.checked));
     }
+  });
+
+  // Add functionality for Check All and Uncheck All buttons
+  document.getElementById('check-all').addEventListener('click', () => {
+    document.querySelectorAll('.options input[type=checkbox]').forEach(checkbox => {
+      if (!checkbox.id.startsWith('cbgroup-group') && !checkbox.id.startsWith('cbgroup-gen')) { // Skip the Filter by Group and Filter by Generation checkboxes
+        checkbox.checked = true;
+      }
+    });
+  });
+
+  document.getElementById('uncheck-all').addEventListener('click', () => {
+    document.querySelectorAll('.options input[type=checkbox]').forEach(checkbox => {
+      if (!checkbox.id.startsWith('cbgroup-group') && !checkbox.id.startsWith('cbgroup-gen')) { // Skip the Filter by Group and Filter by Generation checkboxes
+        checkbox.checked = false;
+      }
+    });
   });
 }
 
