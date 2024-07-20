@@ -2150,62 +2150,6 @@ dataSet[dataSetVersion].characterData = [
       }
     },
 	{
-    name: "Iznagirl1 (Izna)",
-    img: "7VKRZOi.png",
-    opts: {
-      group: [ "Izna" ],
-      gen: ["gen5"]  
-      }
-    },
-	{
-    name: "Iznagirl2 (Izna)",
-    img: "7VKRZOi.png",
-    opts: {
-      group: [ "Izna" ],
-      gen: ["gen5"]  
-      }
-    },
-	{
-    name: "Iznagirl3 (Izna)",
-    img: "7VKRZOi.png",
-    opts: {
-      group: [ "Izna" ],
-      gen: ["gen5"]  
-      }
-    },
-	{
-    name: "Iznagirl4 (Izna)",
-    img: "7VKRZOi.png",
-    opts: {
-      group: [ "Izna" ],
-      gen: ["gen5"]  
-      }
-    },
-	{
-    name: "Iznagirl5 (Izna)",
-    img: "7VKRZOi.png",
-    opts: {
-      group: [ "Izna" ],
-      gen: ["gen5"]  
-      }
-    },
-	{
-    name: "Iznagirl6 (Izna)",
-    img: "7VKRZOi.png",
-    opts: {
-      group: [ "Izna" ],
-      gen: ["gen5"]  
-      }
-    },
-	{
-    name: "Iznagirl7 (Izna)",
-    img: "7VKRZOi.png",
-    opts: {
-      group: [ "Izna" ],
-      gen: ["gen5"]  
-      }
-    },
-	{
     name: "Jimin (CLASS:y)",
     img: "7VKRZOi.png",
     opts: {
@@ -2315,6 +2259,62 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       group: [ "Ichillin" ],
       gen: ["gen4"]  
+      }
+    },
+	{
+    name: "Mai (izna)",
+    img: "7VKRZOi.png",
+    opts: {
+      group: [ "Izna" ],
+      gen: ["gen5"]  
+      }
+    },
+  {
+    name: "Jeemin (izna)",
+    img: "7VKRZOi.png",
+    opts: {
+      group: [ "Izna" ],
+      gen: ["gen5"]  
+      }
+    },
+  {
+    name: "jiyoon (izna)",
+    img: "7VKRZOi.png",
+    opts: {
+      group: [ "Izna" ],
+      gen: ["gen5"]  
+      }
+    },
+  {
+    name: "Koko (izna)",
+    img: "7VKRZOi.png",
+    opts: {
+      group: [ "Izna" ],
+      gen: ["gen5"]  
+      }
+    },
+  {
+    name: "Sarang (izna)",
+    img: "7VKRZOi.png",
+    opts: {
+      group: [ "Izna" ],
+      gen: ["gen5"]  
+      }
+    },
+  {
+    name: "Jungeun (izna)",
+    img: "7VKRZOi.png",
+    opts: {
+      group: [ "Izna" ],
+      gen: ["gen5"]  
+      }
+    },
+  {
+    name: "Saebi (izna)",
+    img: "7VKRZOi.png",
+    opts: {
+      group: [ "Izna" ],
+      gen: ["gen5"]  
       }
     },
 ];

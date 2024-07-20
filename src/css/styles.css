@@ -172,6 +172,19 @@ label:hover {
   color: #B36F75;
 }
 
+.button-container {
+  margin-bottom: 5px;
+  overflow: hidden;
+}
+
+.button-container button {
+  text-decoration: dashed;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+  margin-right: 2px;
+}
+
 .options > .large.option, .options > hr {
   grid-column: span 3;
   text-align: center;
