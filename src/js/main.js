@@ -66,7 +66,8 @@ function init() {
   document.querySelector('.sorting.tie.button').addEventListener('click', () => pick('tie'));
   document.querySelector('.sorting.undo.button').addEventListener('click', undo);
   document.querySelector('.sorting.save.button').addEventListener('click', () => saveProgress('Progress'));
-
+  // document.querySelector('.sorting.result.button').addEventListener('click', () => result());
+  
   document.querySelector('.finished.save.button').addEventListener('click', () => saveProgress('Last Result'));
   document.querySelector('.finished.getimg.button').addEventListener('click', generateImage);
   document.querySelector('.finished.list.button').addEventListener('click', generateTextList);
@@ -75,7 +76,7 @@ function init() {
   document.querySelector('#new-results').style.display = 'none';
 
   /** Define keyboard controls (up/down/left/right vimlike k/j/h/l). */
-  document.addEventListener('keypress', (ev) => {
+  document.addEventListener('keydown', (ev) => {
     /** If sorting is in progress. */
     if (timestamp && !timeTaken && !loading && choices.length === battleNo - 1) {
       switch(ev.key) {
@@ -287,6 +288,13 @@ function display() {
     const charTooltip = name !== charName ? name : '';
     return `<p title="${charTooltip}">${charName}</p>`;
   };
+
+  const progressText = document.querySelector('.progresstext');
+  if (percent >= 50) {
+    progressText.style.color = 'black';
+  } else {
+    progressText.style.color = 'white';
+  }
 
   progressBar(`Battle No. ${battleNo}`, percent);
 
@@ -530,7 +538,7 @@ function progressBar(indicator, percentage) {
  * @param {number} [imageNum=3] Number of images to display. Defaults to 3.
  */
 function result(imageNum = 3) {
-    document.querySelector('#new-results').style.display = 'block';
+  document.querySelector('#new-results').style.display = 'block';
   document.querySelectorAll('.finished.button').forEach(el => el.style.display = 'block');
   document.querySelector('.image.selector').style.display = 'block';
   document.querySelector('.time.taken').style.display = 'block';
@@ -538,8 +546,8 @@ function result(imageNum = 3) {
 
   document.querySelectorAll('.sorting.button').forEach(el => el.style.display = 'none');
   document.querySelectorAll('.sort.text').forEach(el => el.style.display = 'none');
-    document.querySelector('.progress-section').style.display = 'none';
-    document.querySelector('.sorter').style.display = 'none';
+  document.querySelector('.progress-section').style.display = 'none';
+  document.querySelector('.sorter').style.display = 'none';
   document.querySelector('.options').style.display = 'none';
   // document.querySelector('.info').style.display = 'none';
 
@@ -768,6 +776,7 @@ function populateOptions() {
   });
 }
 
+
 /**
  * Decodes compressed shareable link query string.
  * @param {string} queryString
@@ -862,7 +871,13 @@ function preloadImages() {
             setImageToData(img, idx);
             resolve(img);
           };
+
           img.onerror = img.onabort = () => reject(src);
+          // img.onerror = img.onabort = () => {
+          //   console.warn(`Failed to load image: ${src}`);
+          //   resolve();
+          // };
+
           if ( img.complete || img.complete === undefined ) {
             img.src = src;
           }

@@ -56,7 +56,7 @@ h3 {
 
 .progressbar {
   position: relative;
-  border: 1px solid #111111;
+  border: 1px solid #FFBCD9;
   border-radius: 20px;
   padding: 3px;
   margin: 2px 0px;
@@ -64,10 +64,13 @@ h3 {
 
 .progresstext {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   width: 100%;
-  margin: 3px 0px;
   text-align: center;
   font-size: 0.7em;
+  z-index: 1;
 }
 
 .progressfill {
@@ -75,6 +78,9 @@ h3 {
   background-color: #FFBCD9;
   border-radius: 10px;
   width: 0%;
+  position: relative;
+  /* Add this to ensure .progresstext is above the fill */
+  z-index: 0;
 }
 
 .button {
