@@ -1,15 +1,14 @@
 # Changelog
-
-**2024-07-20**
- * Added Check All/Uncheck All buttons
  
-**2024-07-19**
+**2024-08-25**
  * Added new groups: Everglow, Babymonster, CLASS:y, Candy Shop, RESCENE, UNIS, Izna, ICHILLIN', Madein (Formerly Limelight)
  * Edited generations (fromis: 4 --> 3, tripleS: 4 --> 5, WJSN: 4 --> 3
  * Moved Yeseo and Yeshiro: Kep1er --> Madein
  * Added Nayoung to Lightsum
  * Moved and renamed Belle: cignature --> Hyeonju (UNIS)
  * Fixed some capitalization styling (ITZY, aespa, fromis_9, IVE, WOOAH, LE SSERAFIM)
+ * Added Check All/Uncheck All buttons
+ * Initial launch
 
 # charasort
 A web based character sorter. Allows users to run through a manual merge sort of their favorite
