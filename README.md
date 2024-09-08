@@ -1,6 +1,12 @@
 # Changelog
  
+**2024-09-07**
+ * Added Meovv
+ * Changed background color. People didn't like green!
+ * Made some formatting to be more mobile friendly 
+ 
 **2024-08-25**
+ * Initial launch
  * Added new groups: Everglow, Babymonster, CLASS:y, Candy Shop, RESCENE, UNIS, Izna, ICHILLIN', Madein (Formerly Limelight)
  * Edited generations (fromis: 4 --> 3, tripleS: 4 --> 5, WJSN: 4 --> 3
  * Moved Yeseo and Yeshiro: Kep1er --> Madein
@@ -8,7 +14,10 @@
  * Moved and renamed Belle: cignature --> Hyeonju (UNIS)
  * Fixed some capitalization styling (ITZY, aespa, fromis_9, IVE, WOOAH, LE SSERAFIM)
  * Added Check All/Uncheck All buttons
- * Initial launch
+ * Sorter groups into alphabetical order
+ * Color change
+ * Removed old inactive soloists and added Minju to soloist
+
 
 # charasort
 A web based character sorter. Allows users to run through a manual merge sort of their favorite
