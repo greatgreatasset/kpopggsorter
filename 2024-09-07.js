@@ -34,7 +34,7 @@ dataSet[dataSetVersion].options = [
 	  { name: "Lightsum", key: "Lightsum" },
 	  { name: "Loossemble", key: "Loossemble" },
   	  { name: "Madein", key: "Madein" },	 
-  	  { name: "Meovv", key: "Madein" },		  
+  	  { name: "Meovv", key: "Meovv" },		  
 	  { name: "NewJeans", key: "NewJeans" },
 	  { name: "NMIXX", key: "NMIXX" },	  
       { name: "Oh My Girl", key: "omg" },	  
