@@ -1240,14 +1240,6 @@ dataSet[dataSetVersion].characterData = [
       }
     },
 	{
-    name: "Bona (WJSN)",
-    img: "LFvm0lQ.png",
-    opts: {
-      group: [ "WJSN" ],
-      gen: ["gen3"]  
-      }
-    },
-	{
     name: "Natty (Kiss of Life)",
     img: "8AudLPy.png",
     opts: {
