@@ -1,5 +1,8 @@
 # Changelog
  
+**2024-09-15**
+ * Added Mimiirose
+ 
 **2024-09-07**
  * Added Meovv
  * Changed background color. People didn't like green!
