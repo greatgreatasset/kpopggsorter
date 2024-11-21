@@ -1,4 +1,4 @@
-dataSetVersion = "2024-09-07";
+dataSetVersion = "2024-11-18";
 dataSet[dataSetVersion] = {};
 
 dataSet[dataSetVersion].options = [
@@ -34,15 +34,19 @@ dataSet[dataSetVersion].options = [
 	  { name: "Lightsum", key: "Lightsum" },
 	  { name: "Loossemble", key: "Loossemble" },
   	  { name: "Madein", key: "Madein" },	 
-  	  { name: "Meovv", key: "Meovv" },		  
+  	  { name: "Meovv", key: "Meovv" },		
+  	  { name: "Mimiirose", key: "Mimiirose" },		  
 	  { name: "NewJeans", key: "NewJeans" },
-	  { name: "NMIXX", key: "NMIXX" },	  
+	  { name: "NMIXX", key: "NMIXX" },	 
+	  { name: "Odd Youth", key: "Odd Youth" },		  
       { name: "Oh My Girl", key: "omg" },	  
       { name: "Purple Kiss", key: "purplekiss" },
 	  { name: "Red Velvet", key: "redvelvet" },
  	  { name: "RESCENE", key: "RESCENE" },	  
-	  { name: "Rocket Punch", key: "Rocket Punch" },	  
+	  { name: "Rocket Punch", key: "Rocket Punch" },	
+      { name: "Say My Name", key: "Say My Name" },	  
       { name: "STAYC", key: "stayc" },
+	  { name: "TRI.BE", key: "tribe" },	
 	  { name: "tripleS", key: "tripleS" },	  
       { name: "Twice", key: "twice" },
   	  { name: "UNIS", key: "UNIS" },	  
@@ -71,6 +75,102 @@ dataSet[dataSetVersion].options = [
 
 dataSet[dataSetVersion].characterData = [
   
+	{
+	name: "Somi (solo)",
+    img: "F4xD49d.png",
+    opts: {
+     group: [ "solo" ],
+     gen: ["gen3"]  
+	 }
+	},
+	{
+    name: "IU (solo)",
+    img: "BNPbNcw.jpeg",
+    opts: {
+     group: [ "solo" ],
+     gen: ["gen2"]  
+	 }
+	},
+	{
+    name: "Yves (solo)",
+    img: "isLxSqW.jpeg",
+    opts: {
+     group: [ "solo" ],
+     gen: ["gen4"]  
+	}
+	},
+	{
+    name: "Jinni (solo)",
+    img: "lbusChX.jpeg",
+    opts: {
+     group: [ "solo" ],
+     gen: ["gen4"]  
+	 }
+	},
+	{
+    name: "Yuri (solo)",
+    img: "TMC2B6o.png",
+    opts: {
+     group: [ "solo" ],
+     gen: ["gen4"]  
+     }
+	},
+	{
+    name: "Taeyeon (solo)",
+    img: "5u4O7Mn.png",
+    opts: {
+     group: [ "solo" ],
+     gen: ["gen2"]  
+     }
+	},
+	{
+    name: "Eunbi (solo)",
+    img: "u0LpS6J.png",
+    opts: {
+     group: [ "solo" ],
+     gen: ["gen4"]  
+     }
+	},
+	{
+	name: "Chuu (solo)",
+	img: "qSp6i66.png",
+	opts: {
+     group: [ "solo" ],
+     gen: ["gen4"]  
+     }
+  },
+  {
+    name: "Yena (solo)",
+    img: "5GRCIOw.png",
+    opts: {
+     group: [ "solo" ],
+     gen: ["gen4"]  
+    }
+	},
+	{
+    name: "Chaeyeon (solo)",
+    img: "xpo9tU3.png",
+    opts: {
+     group: [ "solo" ],
+     gen: ["gen4"]  
+    }
+  },
+   {
+    name: "Sunmi (solo)",
+    img: "DhJ7Voz.png",
+    opts: {
+      group: [ "solo" ],
+      gen: ["gen2"]  
+      }
+   },
+   {
+    name: "Bibi (solo)",
+    img: "BCz80jy.png",
+    opts: {
+      group: [ "solo" ],
+      gen: ["gen3"]  
+      }
+    },
   {
     name: "Jiu (Dreamcatcher)",
     img: "Sz1tPB8.png",
@@ -120,7 +220,7 @@ dataSet[dataSetVersion].characterData = [
       }
   },
   {
-    name: "Gahyeon (Dreamcatcher)",
+    name: "Gahyun (Dreamcatcher)",
     img: "2kdqYw0.png",
     opts: {
       group: [ "dc" ],
@@ -199,14 +299,7 @@ dataSet[dataSetVersion].characterData = [
     gen: ["gen4"]  
     }
   },
-  {
-  name: "Chuu (solo)",
-  img: "qSp6i66.png",
-  opts: {
-    group: [ "solo" ],
-    gen: ["gen4"]  
-    }
-  },
+ 
   {
   name: "Heejin (ARTMS)",
   img: "sa5QO18.png",
@@ -407,15 +500,7 @@ dataSet[dataSetVersion].characterData = [
     gen: ["gen4"]
     }
   },
-  {
-  name: "Eunbi (solo)",
-  img: "u0LpS6J.png",
-  opts: {
-    group: [ "solo" ],
-    gen: ["gen4"]  
-    }
-  },
-  {
+ {
   name: "Sakura (LE SSERAFIM)",
   img: "RclcY50.png",
   opts: {
@@ -423,44 +508,12 @@ dataSet[dataSetVersion].characterData = [
     gen: ["gen4"]  
     }
   },
-  {
-  name: "Yena (solo)",
-  img: "5GRCIOw.png",
-  opts: {
-    group: [ "solo" ],
-    gen: ["gen4"]  
-    }
-  },
-    {
-  name: "Chaeyeon (solo)",
-  img: "xpo9tU3.png",
-  opts: {
-    group: [ "solo" ],
-    gen: ["gen4"]  
-    }
-  },
-  {
+ {
   name: "Chaewon (LE SSERAFIM)",
   img: "gUU8bhZ.png",
   opts: {
     group: [ "le sserafim" ],
     gen: ["gen4"]  
-    }
-  },
-  {
-  name: "Yuri (solo)",
-  img: "TMC2B6o.png",
-  opts: {
-    group: [ "solo" ],
-    gen: ["gen4"]  
-    }
-  },
-   {
-  name: "Taeyeon (solo)",
-  img: "5u4O7Mn.png",
-  opts: {
-    group: [ "solo" ],
-    gen: ["gen2"]  
     }
   },
   {
@@ -689,55 +742,55 @@ dataSet[dataSetVersion].characterData = [
   },
   {
   name: "Chaeyoung (fromis_9)",
-  img: "SfCuovX.png",
+  img: "c6vPYMH.jpeg",
   opts: {
     group: [ "fromis9" ],
     gen: ["gen3"]  
     }
   },
   {
-  name: "Hayoung (fromis_9)",
-  img: "FuLFedr.png",
-  opts: {
-    group: [ "fromis9" ],
-    gen: ["gen3"]  
+    name: "Hayoung (fromis_9)",
+    img: "gBEemHu.jpeg",
+    opts: {
+     group: [ "fromis9" ],
+     gen: ["gen3"]  
     }
   },
   {
-  name: "Jiheon (fromis_9)",
-  img: "iiQ8oMJ.png",
-  opts: {
-    group: [ "fromis9" ],
-    gen: ["gen3"]  
+    name: "Jiheon (fromis_9)",
+    img: "FUrZaxp.jpeg",
+    opts: {
+     group: [ "fromis9" ],
+     gen: ["gen3"]  
     }
   },
   {
   name: "Jisun (fromis_9)",
-  img: "Fk6bE6g.png",
+  img: "AbhuyXJ.jpeg",
   opts: {
     group: [ "fromis9" ],
     gen: ["gen3"]  
     }
   },
   {
-  name: "Megan (fromis_9)",
-  img: "QiRobdZ.png",
+  name: "Jiwon (fromis_9)",
+  img: "P4ZKwFc.jpeg",
   opts: {
     group: [ "fromis9" ],
     gen: ["gen3"]  
     }
   },
   {
-  name: "Nagyung (fromis_9)",
-  img: "E1eiEPM.png",
-  opts: {
+    name: "Nagyung (fromis_9)",
+    img: "P23iub6.jpeg",
+    opts: {
     group: [ "fromis9" ],
     gen: ["gen3"]  
     }
   },
   {
   name: "Saerom (fromis_9)",
-  img: "VZPObo5.png",
+  img: "W8sYS7y.jpeg",
   opts: {
     group: [ "fromis9" ],
     gen: ["gen3"]  
@@ -745,7 +798,7 @@ dataSet[dataSetVersion].characterData = [
   },
   {
   name: "Seoyeon (fromis_9)",
-  img: "YrIuzK5.png",
+  img: "76CnK7W.jpeg",
   opts: {
     group: [ "fromis9" ],
     gen: ["gen3"]  
@@ -856,7 +909,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Yunjin (Lesserafim)",
+    name: "Yunjin (LE SSERAFIM)",
     img: "oJEMmBQ.png",
     opts: {
       group: [ "le sserafim" ],
@@ -864,7 +917,7 @@ dataSet[dataSetVersion].characterData = [
     }
   },
   {
-    name: "Kazuha (Lesserafim)",
+    name: "Kazuha (LE SSERAFIM)",
     img: "ouAFOsH.png",
     opts: {
       group: [ "le sserafim" ],
@@ -872,7 +925,7 @@ dataSet[dataSetVersion].characterData = [
       }
     },
     {
-      name: "Eunchae (Lesserafim)",
+      name: "Eunchae (LE SSERAFIM)",
       img: "eWkHUyC.png",
       opts: {
         group: [ "le sserafim" ],
@@ -1136,30 +1189,6 @@ dataSet[dataSetVersion].characterData = [
       }
     },
 	{
-    name: "Somi (solo)",
-    img: "F4xD49d.png",
-    opts: {
-      group: [ "solo" ],
-      gen: ["gen3"]  
-      }
-    },
-	{
-    name: "IU (solo)",
-    img: "Xs3Nk8F.png",
-    opts: {
-      group: [ "solo" ],
-      gen: ["gen2"]  
-      }
-    },
-	{
-    name: "Sunmi (solo)",
-    img: "DhJ7Voz.png",
-    opts: {
-      group: [ "solo" ],
-      gen: ["gen2"]  
-      }
-    },
-	{
     name: "Yeoreum (WJSN)",
     img: "XAeHDRf.png",
     opts: {
@@ -1381,14 +1410,6 @@ dataSet[dataSetVersion].characterData = [
     opts: {
       group: [ "Young Posse" ],
       gen: ["gen4"]  
-      }
-    },
-	{
-    name: "Bibi (solo)",
-    img: "BCz80jy.png",
-    opts: {
-      group: [ "solo" ],
-      gen: ["gen3"]  
       }
     },
 	{
@@ -2308,6 +2329,206 @@ dataSet[dataSetVersion].characterData = [
     img: "6dnPbFj.png",
     opts: {
       group: [ "Meovv" ],
+      gen: ["gen5"]  
+      }
+    },
+	{
+    name: "Hyori (Mimiirose)",
+    img: "lTzACm2.png",
+    opts: {
+      group: [ "Mimiirose" ],
+      gen: ["gen4"]  
+      }
+    },
+	{
+    name: "Yeonjae (Mimiirose)",
+    img: "u2TGL4Y.png",
+    opts: {
+      group: [ "Mimiirose" ],
+      gen: ["gen4"]  
+      }
+    },
+	{
+    name: "Yewon (Mimiirose)",
+    img: "ug20qhp.png",
+    opts: {
+      group: [ "Mimiirose" ],
+      gen: ["gen4"]  
+      }
+    },
+	{
+    name: "Jia (Mimiirose)",
+    img: "8PVRwBN.png",
+    opts: {
+      group: [ "Mimiirose" ],
+      gen: ["gen4"]  
+      }
+    },
+	{
+    name: "Yerin (Mimiirose)",
+    img: "PEpeuYf.png",
+    opts: {
+      group: [ "Mimiirose" ],
+      gen: ["gen4"]  
+      }
+    },
+	{
+    name: "Anna (Mimiirose)",
+    img: "kIkAiFj.png",
+    opts: {
+      group: [ "Mimiirose" ],
+      gen: ["gen4"]  
+      }
+    },
+	{
+    name: "Yunju (Mimiirose)",
+    img: "VAClEIJ.png",
+    opts: {
+      group: [ "Mimiirose" ],
+      gen: ["gen4"]  
+      }
+    },
+	{
+    name: "Seungjoo (Say My Name)",
+    img: "QwGuobV.jpeg",
+    opts: {
+      group: [ "Say My Name" ],
+      gen: ["gen5"]  
+      }
+    },
+	{
+    name: "Soha (Say My Name)",
+    img: "s81pr3q.jpeg",
+    opts: {
+      group: [ "Say My Name" ],
+      gen: ["gen5"]  
+      }
+    },
+	{
+    name: "Junhwi (Say My Name)",
+    img: "7Dx23YP.jpeg",
+    opts: {
+      group: [ "Say My Name" ],
+      gen: ["gen5"]  
+      }
+    },
+	{
+    name: "Dohee (Say My Name)",
+    img: "lo1PgyK.jpeg",
+    opts: {
+      group: [ "Say My Name" ],
+      gen: ["gen5"]  
+      }
+    },
+	{
+    name: "Mei (Say My Name)",
+    img: "St8ixQM.jpeg",
+    opts: {
+      group: [ "Say My Name" ],
+      gen: ["gen5"]  
+      }
+    },
+	{
+    name: "Kanny (Say My Name)",
+    img: "J5KELod.jpeg",
+    opts: {
+      group: [ "Say My Name" ],
+      gen: ["gen5"]  
+      }
+    },
+	{
+    name: "Hitomi (Say My Name)",
+    img: "SIZap0t.jpeg",
+    opts: {
+      group: [ "Say My Name" ],
+      gen: ["gen5"]  
+      }
+    },
+	{
+    name: "Yeeum (Odd Youth)",
+    img: "Bk38QDI.jpeg",
+    opts: {
+      group: [ "Odd Youth" ],
+      gen: ["gen5"]  
+      }
+    },
+	{
+    name: "Summer (Odd Youth)",
+    img: "bs911wS.jpeg",
+    opts: {
+      group: [ "Odd Youth" ],
+      gen: ["gen5"]  
+      }
+    },
+	{
+    name: "Kanie (Odd Youth)",
+    img: "VHkWtFc.jpeg",
+    opts: {
+      group: [ "Odd Youth" ],
+      gen: ["gen5"]  
+      }
+    },
+	{
+    name: "Myah (Odd Youth)",
+    img: "pUIOvzU.jpeg",
+    opts: {
+      group: [ "Odd Youth" ],
+      gen: ["gen5"]  
+      }
+    },
+	{
+    name: "Maika (Odd Youth)",
+    img: "jTNx1K1.jpeg",
+    opts: {
+      group: [ "Odd Youth" ],
+      gen: ["gen5"]  
+      }
+    },
+	{
+    name: "Kelly (Tri.be)",
+    img: "AO8xFvk.jpeg",
+    opts: {
+      group: [ "tribe" ],
+      gen: ["gen5"]  
+      }
+    },
+	{
+    name: "Jia (Tri.be)",
+    img: "lLRtsQh.jpeg",
+    opts: {
+      group: [ "tribe" ],
+      gen: ["gen5"]  
+      }
+    },
+	{
+    name: "Mire (Tri.be)",
+    img: "DKsvTLz.jpeg",
+    opts: {
+      group: [ "tribe" ],
+      gen: ["gen5"]  
+      }
+    },
+	{
+    name: "Soeun (Tri.be)",
+    img: "YJwo8DN.jpeg",
+    opts: {
+      group: [ "tribe" ],
+      gen: ["gen5"]  
+      }
+    },
+	{
+    name: "Songusn (Tri.be)",
+    img: "13Jz8i3.jpeg",
+    opts: {
+      group: [ "tribe" ],
+      gen: ["gen5"]  
+      }
+    },
+	{
+    name: "Hyunbin (Tri.be)",
+    img: "ZpAi8N0.jpeg",
+    opts: {
+      group: [ "tribe" ],
       gen: ["gen5"]  
       }
     },

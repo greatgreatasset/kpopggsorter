@@ -1,4 +1,12 @@
 # Changelog
+
+**2024-11-18**
+ * Added Tri.be, Say My Name, and Odd Youth
+ * Added a nifty hover. Let me know if you like/dislike this
+ * Picture update
+ * Fixed some issues with images being different sizes
+ * Added Jinni/Yves to solos
+ * Gahyeon --> Gahyun to reflect her new name
  
 **2024-09-15**
  * Added Mimiirose
