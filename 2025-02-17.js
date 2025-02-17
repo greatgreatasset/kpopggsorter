@@ -132,6 +132,14 @@ dataSet[dataSetVersion].characterData = [
      }
 	},
 	{
+	name: "Nako (solo)",
+    img: "9XIvJ1j.jpeg",
+    opts: {
+     group: [ "solo" ],
+     gen: ["gen3"]  
+     }
+	},
+	{
     name: "Taeyeon (solo)",
     img: "5u4O7Mn.jpeg",
     opts: {
