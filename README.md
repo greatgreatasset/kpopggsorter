@@ -1,5 +1,12 @@
 # Changelog
 
+**2025-02-25**
+ * Added Hearts2Hearts and KiiiKiii.
+ * Added Hyewon and Nako (formerly IZ\*One to soloists).
+ * Removed hover. Was not really implemented well and caused issues for mobile.
+ * Changed NewJeans to NJZ.
+ * Picture update for IVE, aespa, and NJZ.
+
 **2024-11-18**
  * Added Tri.be, Say My Name, and Odd Youth
  * Added a nifty hover. Let me know if you like/dislike this
