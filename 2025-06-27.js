@@ -575,7 +575,7 @@ dataSet[dataSetVersion].characterData = [
   name: "Soyeon (i-dle)",
   img: "U4bpw40.jpeg",
   opts: {
-    group: [ "gidle" ],
+    group: [ "i-dle" ],
     gen: ["gen4"]  
     }
   },
@@ -583,7 +583,7 @@ dataSet[dataSetVersion].characterData = [
   name: "Miyeon (i-dle)",
   img: "jIxNZue.jpeg",
   opts: {
-    group: [ "gidle" ],
+    group: [ "i-dle" ],
     gen: ["gen4"]  
     }
   },
@@ -591,7 +591,7 @@ dataSet[dataSetVersion].characterData = [
   name: "Minnie (i-dle)",
   img: "E6KiHj8.jpeg",
   opts: {
-    group: [ "gidle" ],
+    group: [ "iidle" ],
     gen: ["gen4"]  
     }
   },
@@ -599,7 +599,7 @@ dataSet[dataSetVersion].characterData = [
   name: "Yuqi (i-dle)",
   img: "YJ6Vsuw.jpeg",
   opts: {
-    group: [ "gidle" ],
+    group: [ "i-dle" ],
     gen: ["gen4"]  
     }
   },
@@ -607,7 +607,7 @@ dataSet[dataSetVersion].characterData = [
   name: "Shuhua (i-dle)",
   img: "SOQku7u.jpeg",
   opts: {
-    group: [ "gidle" ],
+    group: [ "i-dle" ],
     gen: ["gen4"]  
     }
   },
