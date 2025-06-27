@@ -1,5 +1,10 @@
 # Changelog
 
+**2025-06-27**
+ * Added QWER, ALLDAY PROJECT, KIIRAS, HITGS, and USPEER.
+ * Changed (G)I-dle to i-dle.
+ * Fixed capitalization of group names.
+
 **2025-02-25**
  * Added Hearts2Hearts and KiiiKiii.
  * Added Hyewon and Nako (formerly IZ\*One to soloists).
