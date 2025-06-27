@@ -202,6 +202,14 @@ dataSet[dataSetVersion].characterData = [
       gen: ["gen3"]  
       }
     },
+	{
+    name: "Yuju (solo)",
+    img: "wZ51P0x.jpeg",
+    opts: {
+      group: [ "solo" ],
+      gen: ["gen2"]  
+      }
+    },
   {
     name: "Jiu (Dreamcatcher)",
     img: "Sz1tPB8.jpeg",

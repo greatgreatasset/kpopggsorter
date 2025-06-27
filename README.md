@@ -2,6 +2,7 @@
 
 **2025-06-27**
  * Added QWER, ALLDAY PROJECT, KIIRAS, HITGS, and USPEER.
+ * Added Yuju to soloists.
  * Changed (G)I-dle to i-dle.
  * Fixed capitalization of group names.
 
